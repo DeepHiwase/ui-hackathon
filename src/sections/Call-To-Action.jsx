@@ -1,3 +1,3 @@
 export const CallToAction = () => {
-  return <div>CallToAction</div>;
+  return <div></div>;
 };
