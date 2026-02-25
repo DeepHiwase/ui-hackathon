@@ -9,48 +9,24 @@ import img5 from "../assets/cfmachine4sideview.jpeg";
 
 export const Gallery = () => {
   return (
-    <section className="h-250 flex items-center justify-center max-w-lg container mx-auto">
-      <Carousel className="" autoPlay infiniteLoop useKeyboardArrows transitionTime={1.5}>
-        <div className="">
-          <img
-            src={img1}
-            alt="Coffee image"
-            style={{ width: "400px", height: "300px", objectFit: "cover" }}
-          />
-          <p>First Look</p>
-        </div>
-        <div>
-          <img
-            src={img2}
-            alt="Coffee image"
-            style={{ width: "400px", height: "300px", objectFit: "cover" }}
-          />
-          <p>Backside</p>
-        </div>
-        <div>
-          <img
-            src={img3}
-            alt="Coffee image"
-            style={{ width: "400px", height: "300px", objectFit: "cover" }}
-          />
-          <p>Frontside</p>
-        </div>
-        <div>
-          <img
-            src={img4}
-            alt="Coffee image"
-            style={{ width: "400px", height: "300px", objectFit: "cover" }}
-          />
-          <p>Sideview</p>
-        </div>
-        <div>
-          <img
-            src={img5}
-            alt="Coffee image"
-            style={{ width: "400px", height: "300px", objectFit: "cover" }}
-          />
-          <p>Another Sideview</p>
-        </div>
+    <section className="w-full h-[700px]">
+      <Carousel
+        autoPlay
+        infiniteLoop
+        useKeyboardArrows
+        showThumbs={false}
+        showStatus={false}
+        interval={3000}
+      >
+        {[img1, img2, img3, img4, img5].map((image, index) => (
+          <div key={index} className="h-[700px]">
+            <img
+              src={image}
+              alt="Coffee Machine"
+              className="w-full h-[700px] object-cover"
+            />
+          </div>
+        ))}
       </Carousel>
     </section>
   );
