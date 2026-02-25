@@ -1,1 +1,4 @@
 @import "tailwindcss";
+@theme inline {
+  --font-display: "Rouge Script", cursive;
+}
