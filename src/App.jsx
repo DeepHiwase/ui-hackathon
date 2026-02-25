@@ -4,6 +4,7 @@ import { CallToAction } from "./sections/Call-To-Action";
 import { Features } from "./sections/Features";
 import { Gallery } from "./sections/Gallery";
 import { Header } from "./sections/Header";
+import Footer from "./sections/Footer";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -24,6 +25,7 @@ function App() {
       <Features />
       <Gallery />
       <CallToAction />
+      <Footer />
     </div>
   );
 }
