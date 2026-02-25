@@ -1,4 +1,4 @@
-import img from "../assets/cfmachine.jpeg";
+import img from "../assets/plane_background.png";
 
 export const Hero = () => {
   return (
@@ -15,7 +15,7 @@ export const Hero = () => {
             coffee enthusiasts.
           </p>
         </div>
-        <div className="overflow-hidden rounded-2xl ml-40 mt-3 w-[600px] h-[600px]">
+        <div className="overflow-hidden rounded-2xl ml-40 mb-10 w-[500px] h-[500px]">
           <img
             src={img}
             alt="coffee-machine"
