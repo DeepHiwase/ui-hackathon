@@ -53,21 +53,21 @@ export const Header = () => {
           <div className="flex items-center gap-4 cursor-pointer hover:text-[#6E5034]">
             <MdOutlineFeaturedPlayList size={24} />
             <span className="hidden group-hover:inline transition-all duration-300">
-              Features
+              <a href="#features">Features</a>
             </span>
           </div>
 
           <div className="flex items-center gap-4 cursor-pointer hover:text-[#6E5034]">
             <GrGallery size={24} />
             <span className="hidden group-hover:inline transition-all duration-300">
-              Gallery
+              <a href="#gallery">Gallery</a>
             </span>
           </div>
 
           <div className="flex items-center gap-4 cursor-pointer hover:text-[#6E5034]">
             <IoIosCall size={24} />
             <span className="hidden group-hover:inline transition-all duration-300">
-              Call To Action
+              <a href="#call-to-action">Buy Now</a>
             </span>
           </div>
         </div>

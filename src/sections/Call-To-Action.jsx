@@ -1,6 +1,6 @@
 export const CallToAction = () => {
   return (
-    <section className="bg-gradient-to-r from-amber-900 to-amber-700 text-white py-16">
+    <section id="call-to-action" className="bg-gradient-to-r from-amber-900 to-amber-700 text-white py-16">
       <div className="container mx-auto px-6 text-center max-w-3xl">
         <h2 className="text-4xl font-bold mb-4">
           Brew Barista-Quality Coffee at Home ☕

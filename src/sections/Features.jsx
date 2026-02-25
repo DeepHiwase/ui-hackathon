@@ -33,7 +33,7 @@ export const Features = () => {
   ];
 
   return (
-    <section className="bg-amber-800 h-200">
+    <section id="features" className="bg-amber-800 py-20">
       <div className="container mx-auto max-w-2xl h-full flex justify-center items-center">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {features.map((feature, index) => (

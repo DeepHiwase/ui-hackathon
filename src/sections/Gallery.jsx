@@ -9,7 +9,7 @@ import img5 from "../assets/cfmachine4sideview.jpeg";
 
 export const Gallery = () => {
   return (
-    <section className="h-250 flex items-center justify-center max-w-lg container mx-auto">
+    <section id="gallery" className="h-250 flex items-center justify-center max-w-lg container mx-auto">
       <Carousel className="" autoPlay infiniteLoop useKeyboardArrows transitionTime={1.5}>
         <div className="">
           <img
