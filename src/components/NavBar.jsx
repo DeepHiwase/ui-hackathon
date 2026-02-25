@@ -13,7 +13,7 @@ export const NavBar = () => {
             <span>Comfy Co</span>
           </div>
 
-          <ul className="hidden md:flex text-lg ml-auto">
+          <ul className="hidden md:flex text-xxl ml-auto">
             <li className="cursor-pointer hover:text-yellow-300 transition">
               Home
             </li>
